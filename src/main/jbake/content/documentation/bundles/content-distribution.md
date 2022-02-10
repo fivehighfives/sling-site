@@ -92,7 +92,7 @@ Reverse distribution can be triggered by sending a `POST` HTTP request to the ag
 
 The example below adds the the path `/content/sample1` and then reverse distribute it.
 
-    $ curl -v -u admin:admin http://localhost:8081/libs/sling/distribution/services/agents/publish -d 'action=PULL' -d 'path=/content/sample1'
+    $ curl -v -u admin:admin https://localhost:8081/libs/sling/distribution/services/agents/publish -d 'action=PULL' -d 'path=/content/sample1'
 
 ### Sync distribution
 
